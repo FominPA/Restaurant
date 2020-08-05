@@ -81,7 +81,6 @@ header {
   -ms-flex-align: center;
   align-items: center;
   font-family: 'Playfair Display', serif;
-  font-weight: bold;
   color: white; }
   #Banner .sub-color {
     color: #FEA100; }
@@ -89,3 +88,31 @@ header {
     font-size: 56px; }
   #Banner .bottom {
     font-size: 40px; }
+
+#BelowBanner {
+  background-color: #EDF1F3;
+  border-bottom: 1px solid #DDE3E7;
+  padding: 30px 0; }
+  #BelowBanner .wrapper {
+    width: 445px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  #BelowBanner h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 37px; }
+  #BelowBanner p {
+    font-family: 'Sintony', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase; }
+    #BelowBanner p .sub-color {
+      font-size: 16px;
+      color: #FEA100; }
