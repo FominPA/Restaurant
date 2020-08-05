@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Sintony:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
 * {
   margin: 0;
@@ -110,9 +110,77 @@ header {
     line-height: 37px; }
   #BelowBanner p {
     font-family: 'Sintony', sans-serif;
-    font-weight: bold;
     font-size: 14px;
+    font-weight: bold;
     text-transform: uppercase; }
     #BelowBanner p .sub-color {
       font-size: 16px;
       color: #FEA100; }
+
+#AboutRestaurent {
+  padding: 66px 0 100px; }
+  #AboutRestaurent .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  #AboutRestaurent .semi-wrapper {
+    width: calc(50% - 30px);
+    padding: 50px 0 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  #AboutRestaurent h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px; }
+  #AboutRestaurent p {
+    font-family: 'Sintony', sans-serif;
+    font-size: 14px; }
+  #AboutRestaurent .text {
+    line-height: 26px;
+    color: #5C6369;
+    padding-right: 35px; }
+  #AboutRestaurent .sub-color {
+    color: #FEA100; }
+  #AboutRestaurent .button {
+    display: inline-block; }
+    #AboutRestaurent .button a {
+      background-color: #FEA100;
+      border-radius: 3px;
+      display: block;
+      color: white;
+      width: 150px;
+      height: 50px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-transform: uppercase;
+      font-weight: bold; }
+  #AboutRestaurent .quarter-wrapper {
+    margin-left: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  #AboutRestaurent img {
+    width: 270px; }
+  #AboutRestaurent .first {
+    margin: 50px 0 10px; }
+  #AboutRestaurent .last {
+    margin: 10px 0 50px; }
