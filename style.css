@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Sintony:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #000;
+  color: #2C465A; }
+
+html {
+  background-color: #282828; }
+
+body {
+  width: 1970px;
+  margin: 20px auto;
+  background-color: #fff;
+  color: #2C465A; }
+
+.wrapper {
+  width: 1170px;
+  padding: 0 30px;
+  margin: 0 auto; }
+
+header {
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Sintony', sans-serif; }
+  header .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  header img.logo {
+    width: 212px;
+    height: 40px; }
+  header .menu a {
+    display: inline-block;
+    margin: 15px; }
+    header .menu a:hover {
+      color: #FEA100; }
+  header .button a {
+    background-color: #FEA100;
+    padding: 3px;
+    border-radius: 3px;
+    display: block;
+    color: white; }
+    header .button a .button-border {
+      border: 1px solid white;
+      border-radius: 3px;
+      padding: 11px 15px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    header .button a img {
+      margin-right: 15px;
+      width: 17px; }
+    header .button a p {
+      line-height: 14px;
+      margin-top: 3px; }

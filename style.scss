@@ -1,0 +1,71 @@
+$def-color: #2C465A;
+$sub-color: #FEA100;
+
+@import url('https://fonts.googleapis.com/css2?family=Sintony:wght@700&display=swap');
+
+* { margin: 0; padding: 0; }
+
+a {
+	text-decoration: none;
+	color: #000;
+	color: $def-color;
+}
+
+html { background-color: #282828; }
+
+body {
+	width: 1970px;
+	margin: 20px auto;
+	background-color: #fff;
+	color: $def-color;
+}
+
+.wrapper {
+	width: 1170px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+// -------------   blocks   -------------
+
+header {
+	padding: 20px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 'Sintony', sans-serif;
+
+	.wrapper { 
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	img.logo { width: 212px; height: 40px; }
+
+	.menu a {
+		display: inline-block;
+		margin: 15px;
+		&:hover { color: $sub-color; }
+	}
+
+	.button a {
+		background-color: $sub-color;
+		padding: 3px;
+		border-radius: 3px;
+		display: block;
+		color: white;
+
+		.button-border {
+			border: 1px solid white;
+			border-radius: 3px;
+			padding: 11px 15px;
+			display: flex;
+			align-items: center;
+		}
+
+		img { margin-right: 15px; width: 17px; }
+
+		p { line-height: 14px; margin-top: 3px; }
+	}
+}
