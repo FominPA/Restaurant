@@ -179,3 +179,84 @@ header {
 	.last { margin: 10px 0 50px; }
 }
 
+
+#TodaySpecial {
+	background-image: url('images/special-background.png');
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 100px 0 130px;
+
+	h2 {
+		font-family: 'Playfair Display', serif;
+		font-size: 35px;
+		color: white;
+		margin-bottom: 25px;
+	}
+
+	.items {
+		display: flex;
+		justify-content: space-between;
+
+		.item {
+			background-color: #fff;
+			width: 569px;
+			box-shadow: 0 0 38px 24px rgba(0,0,0,.09);
+
+			.text-wrapper {
+				width: 430px;
+				margin: auto;
+				padding: 50px 0 60px;
+
+				h3 {
+					font-family: 'Playfair Display', serif;
+					font-size: 26px;
+					margin-bottom: 20px;
+					color: black;
+				}
+
+				p {
+					font-family: 'Sintony', sans-serif;
+					font-size: 14px;
+					color: #5C6369;
+				}
+			}
+
+			.bottom {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin: 0 48px;
+				padding: 18px 0 29px;
+				border-top: 2px solid #E1E1E1;
+
+				.left {
+					display: flex;
+					align-items: center;
+					.text {
+						font-family: 'Sintony', sans-serif;
+						text-transform: uppercase;
+						font-weight: bold;
+						font-size: 13px;
+						text-align: left;
+						.purple { color: #FE4C8D }
+						padding-right: 21px;
+						border-right: 2px solid #E1E1E1;
+					}
+
+					.phone {
+						padding-left: 21px;
+						font-family: 'Playfair Display', serif;
+						font-size: 26px;
+					}
+				}
+
+				.price {
+					font-family: 'Playfair Display', serif;
+					font-size: 30px;
+					font-weight: bold;
+					color: #FEA100;
+				}
+			}
+		}
+	}
+}
