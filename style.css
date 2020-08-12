@@ -10,7 +10,8 @@ a {
 
 body {
   background-color: #fff;
-  color: #2C465A; }
+  color: #2C465A;
+  min-width: 320px; }
 
 .wrapper {
   width: 1170px;
@@ -71,6 +72,27 @@ header {
     header .button a p {
       line-height: 14px;
       margin-top: 3px; }
+  @media (max-width: 1230px) {
+    header .wrapper {
+      padding: 0 calc(50% - 1200px); } }
+  @media (max-width: 1200px) {
+    header .wrapper {
+      width: calc(100% - 30px);
+      padding: 0 15px; } }
+  @media (max-width: 1041px) {
+    header .menu {
+      display: none; } }
+  @media (max-width: 450px) {
+    header {
+      padding: 0; }
+      header .wrapper {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+      header img {
+        display: none; }
+      header .button {
+        margin-bottom: -80px; } }
 
 #Banner {
   background-image: url("images/banner-background.png");
@@ -90,6 +112,16 @@ header {
     font-size: 56px; }
   #Banner .bottom {
     font-size: 40px; }
+  @media (max-width: 557px) {
+    #Banner .wrapper {
+      width: 497px;
+      padding: 0 calc(50% - 497px); } }
+  @media (max-width: 527px) {
+    #Banner .wrapper {
+      width: calc(100% - 30px);
+      padding: 0 15px; }
+    #Banner .top span {
+      display: inline-block; } }
 
 #BelowBanner {
   background-color: #EDF1F3;
@@ -115,6 +147,23 @@ header {
     #BelowBanner p .sub-color {
       font-size: 16px;
       color: #FEA100; }
+  @media (max-width: 505px) {
+    #BelowBanner .wrapper {
+      padding: 0 calc(50% - 495px); } }
+  @media (max-width: 505px) {
+    #BelowBanner .wrapper {
+      width: calc(100% - 10px);
+      padding: 0 5px; } }
+  @media (max-width: 410px) {
+    #BelowBanner img {
+      display: none; } }
+  @media (max-width: 365px) {
+    #BelowBanner .wrapper {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
 
 #AboutRestaurent {
   padding: 66px 0 100px; }
