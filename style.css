@@ -23,6 +23,14 @@ body {
   padding: 0 30px;
   margin: 0 auto; }
 
+p {
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px; }
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 35px; }
+
 header {
   padding: 20px 0;
   text-transform: uppercase;
@@ -105,12 +113,9 @@ header {
     -ms-flex-align: center;
     align-items: center; }
   #BelowBanner h2 {
-    font-family: 'Playfair Display', serif;
     font-size: 32px;
     line-height: 37px; }
   #BelowBanner p {
-    font-family: 'Sintony', sans-serif;
-    font-size: 14px;
     font-weight: bold;
     text-transform: uppercase; }
     #BelowBanner p .sub-color {
@@ -138,12 +143,6 @@ header {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
-  #AboutRestaurent h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 35px; }
-  #AboutRestaurent p {
-    font-family: 'Sintony', sans-serif;
-    font-size: 14px; }
   #AboutRestaurent .text {
     line-height: 26px;
     color: #5C6369;
@@ -191,8 +190,6 @@ header {
   text-align: center;
   padding: 100px 0 130px; }
   #TodaySpecial h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 35px;
     color: white;
     margin-bottom: 25px; }
   #TodaySpecial .items {
@@ -212,13 +209,9 @@ header {
         margin: auto;
         padding: 50px 0 60px; }
         #TodaySpecial .items .item .text-wrapper h3 {
-          font-family: 'Playfair Display', serif;
-          font-size: 26px;
           margin-bottom: 20px;
           color: black; }
         #TodaySpecial .items .item .text-wrapper p {
-          font-family: 'Sintony', sans-serif;
-          font-size: 14px;
           color: #5C6369; }
       #TodaySpecial .items .item .bottom {
         display: -webkit-box;
@@ -241,7 +234,6 @@ header {
           -ms-flex-align: center;
           align-items: center; }
           #TodaySpecial .items .item .bottom .left .text {
-            font-family: 'Sintony', sans-serif;
             text-transform: uppercase;
             font-size: 13px;
             font-weight: bold;
@@ -305,7 +297,6 @@ footer {
     align-items: center;
     margin-top: 50px; }
     footer .copyright p {
-      font-family: 'Sintony', sans-serif;
       text-transform: uppercase;
       font-size: 13px;
       color: #ADB2B7; }
