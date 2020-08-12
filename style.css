@@ -74,7 +74,7 @@ header {
       margin-top: 3px; }
   @media (max-width: 1230px) {
     header .wrapper {
-      padding: 0 calc(50% - 1200px); } }
+      padding: 0 calc(calc(100% - 1200px) / 2); } }
   @media (max-width: 1200px) {
     header .wrapper {
       width: calc(100% - 30px);
@@ -115,7 +115,7 @@ header {
   @media (max-width: 557px) {
     #Banner .wrapper {
       width: 497px;
-      padding: 0 calc(50% - 497px); } }
+      padding: 0 calc(calc(100% - 497px) / 2); } }
   @media (max-width: 527px) {
     #Banner .wrapper {
       width: calc(100% - 30px);
@@ -149,7 +149,7 @@ header {
       color: #FEA100; }
   @media (max-width: 505px) {
     #BelowBanner .wrapper {
-      padding: 0 calc(50% - 495px); } }
+      padding: 0 calc(calc(100% - 495px) / 2); } }
   @media (max-width: 505px) {
     #BelowBanner .wrapper {
       width: calc(100% - 10px);
@@ -193,7 +193,8 @@ header {
   #AboutRestaurent .sub-color {
     color: #FEA100; }
   #AboutRestaurent .button {
-    display: inline-block; }
+    display: inline-block;
+    margin-top: 10px; }
     #AboutRestaurent .button a {
       background-color: #FEA100;
       border-radius: 3px;
@@ -226,6 +227,51 @@ header {
     margin: 50px 0 10px; }
   #AboutRestaurent .last {
     margin: 10px 0 50px; }
+  @media (max-width: 1230px) {
+    #AboutRestaurent .wrapper {
+      padding: 0 calc(calc(100% - 1170px) / 2); } }
+  @media (max-width: 1200px) {
+    #AboutRestaurent .wrapper {
+      padding: 0 15px;
+      width: calc(100% - 30px);
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    #AboutRestaurent .semi-wrapper {
+      width: 555px;
+      margin: 0 calc(calc(100% - 555px) / 2); }
+    #AboutRestaurent .quarter-wrapper {
+      margin-left: 0; }
+    #AboutRestaurent .left {
+      margin-right: 15px; }
+    #AboutRestaurent .right {
+      margin-left: 15px; } }
+  @media (max-width: 620px) {
+    #AboutRestaurent .quarter-wrapper {
+      margin: 0; }
+    #AboutRestaurent .left {
+      margin-right: 10px; } }
+  @media (max-width: 600px) {
+    #AboutRestaurent .wrapper {
+      display: block;
+      text-align: center; }
+      #AboutRestaurent .wrapper p {
+        text-align: left; }
+    #AboutRestaurent .quarter-wrapper {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      margin: 0; }
+      #AboutRestaurent .quarter-wrapper img {
+        margin: 0;
+        margin-top: 15px; } }
+  @media (max-width: 620px) {
+    #AboutRestaurent .semi-wrapper {
+      width: 100%;
+      margin: 0;
+      text-align: center; }
+      #AboutRestaurent .semi-wrapper p {
+        text-align: left; } }
 
 #TodaySpecial {
   background-image: url("images/special-background.png");

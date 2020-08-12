@@ -78,7 +78,7 @@ header {
 
 	@media (max-width: 1230px) {
 		.wrapper {
-			padding: 0 calc(50% - 1200px);
+			padding: 0 calc(calc(100% - 1200px) / 2);
 		}
 	}
 
@@ -127,7 +127,7 @@ header {
 	@media (max-width: 557px) {
 		.wrapper {
 			width: 497px;
-			padding: 0 calc(50% - 497px);
+			padding: 0 calc(calc(100% - 497px) / 2);
 		}
 	}
 
@@ -172,7 +172,7 @@ header {
 
 	@media (max-width: 505px) {
 		.wrapper {
-			padding: 0 calc(50% - 495px);
+			padding: 0 calc(calc(100% - 495px) / 2);
 		}
 	}
 
@@ -220,6 +220,7 @@ header {
 
 	.button {
 		display: inline-block;
+		margin-top: 10px;
 
 		a {
 			background-color: $sub-color;
@@ -246,6 +247,66 @@ header {
 
 	.first { margin: 50px 0 10px; }
 	.last { margin: 10px 0 50px; }
+
+	@media (max-width: 1230px) {
+		.wrapper {
+			padding: 0 calc(calc(100% - 1170px) / 2);
+		}
+	}
+
+	@media (max-width: 1200px) {
+		.wrapper {
+			padding: 0 15px;
+			width: calc(100% - 30px);
+			justify-content: center;
+		}
+
+		.semi-wrapper {
+			width: 555px;
+			margin: 0 calc(calc(100% - 555px) / 2);
+		}
+
+		.quarter-wrapper { margin-left: 0; }
+
+		.left { margin-right: 15px; }
+
+		.right { margin-left: 15px; }
+	}
+
+	@media (max-width: 620px) {
+		.quarter-wrapper {
+			margin: 0;
+		}
+
+		.left { margin-right: 10px; }
+	}
+
+	@media (max-width: 600px) {
+		.wrapper {
+			display: block;
+			text-align: center;
+			p { text-align: left; }
+		}
+
+		.quarter-wrapper {
+			display: inline-flex;
+			margin: 0;
+
+			img {
+				margin: 0;
+				margin-top: 15px;
+			}
+		}
+	}
+
+	@media (max-width: 620px) {
+		.semi-wrapper {
+			width: 100%;
+			margin: 0;
+			text-align: center;
+			p { text-align: left; }
+		}
+	}
 }
 
 
