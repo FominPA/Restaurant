@@ -6,15 +6,9 @@
 
 a {
   text-decoration: none;
-  color: #000;
   color: #2C465A; }
 
-html {
-  background-color: #282828; }
-
 body {
-  width: 1970px;
-  margin: 20px auto;
   background-color: #fff;
   color: #2C465A; }
 
@@ -187,6 +181,7 @@ header {
 #TodaySpecial {
   background-image: url("images/special-background.png");
   background-repeat: no-repeat;
+  background-size: contain;
   text-align: center;
   padding: 100px 0 130px; }
   #TodaySpecial h2 {
