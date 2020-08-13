@@ -276,7 +276,6 @@ header {
 #TodaySpecial {
   background-image: url("images/special-background.png");
   background-repeat: no-repeat;
-  background-size: contain;
   text-align: center;
   padding: 100px 0 130px; }
   #TodaySpecial h2 {
@@ -341,6 +340,45 @@ header {
           font-size: 30px;
           font-weight: bold;
           color: #FEA100; }
+  @media (min-width: 1970px) {
+    #TodaySpecial {
+      background-size: contain; } }
+  @media (max-width: 1270px) {
+    #TodaySpecial .wrapper {
+      width: calc(100% - 60px); }
+    #TodaySpecial .items {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; } }
+  @media (max-width: 1220px) {
+    #TodaySpecial .wrapper {
+      width: 570px;
+      margin: auto; }
+    #TodaySpecial .item {
+      margin-top: 10px; } }
+  @media (max-width: 650px) {
+    #TodaySpecial .wrapper {
+      padding: 0;
+      margin: 0 auto; } }
+  @media (max-width: 590px) {
+    #TodaySpecial .wrapper {
+      width: 100%; }
+    #TodaySpecial .items .item img {
+      width: 100%; }
+    #TodaySpecial .items .item .bottom {
+      margin: auto; } }
+  @media (max-width: 450px) {
+    #TodaySpecial .items .item .text-wrapper {
+      width: calc(100% - 10px);
+      margin: auto 5px; }
+    #TodaySpecial .items .item .bottom {
+      width: 100%; }
+      #TodaySpecial .items .item .bottom .left .phone, #TodaySpecial .items .item .bottom .price {
+        font-size: 25px; } }
+  @media (max-width: 380px) {
+    #TodaySpecial .items .item .bottom {
+      width: 100%; }
+      #TodaySpecial .items .item .bottom .left .phone, #TodaySpecial .items .item .bottom .price {
+        font-size: 20px; } }
 
 footer {
   background-color: #373844;
@@ -394,3 +432,16 @@ footer {
       width: 370px;
       height: 1px;
       background-color: #52535E; }
+  @media (max-width: 1230px) {
+    footer .wrapper {
+      width: calc(100% - 60px); } }
+  @media (max-width: 1015px) {
+    footer .copyright .line {
+      width: calc(50% - 100px); } }
+  @media (max-width: 440px) {
+    footer .line {
+      display: none; }
+    footer .copyright {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
