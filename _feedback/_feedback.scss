@@ -26,13 +26,13 @@ $sub-color: #FEA100;
 .feedback__delivery { font-size: 16px; }
 
 @media (max-width: 505px) {
-	.feedback__inner {
+	.feedback__inner.wrapper {
 		padding: 0 calc(calc(100% - 495px) / 2);
 	}
 }
 
 @media (max-width: 505px) {
-	.feedback__inner {
+	.feedback__inner.wrapper {
 		width: calc(100% - 10px);
 		padding: 0 5px;
 	}

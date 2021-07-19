@@ -16,14 +16,14 @@ $sub-color: #FEA100;
 .banner-slaid__bottom { font-size: 40px; }
 
 @media (max-width: 557px) {
-	.banner__inner {
+	.banner__inner.wrapper {
 		width: 497px;
 		padding: 0 calc(calc(100% - 497px) / 2);
 	}
 }
 
 @media (max-width: 527px) {
-	.banner__inner {
+	.banner__inner.wrapper {
 		width: calc(100% - 30px);
 		padding: 0 15px;
 	}
