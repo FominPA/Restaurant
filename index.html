@@ -6,37 +6,35 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<div class="wrapper">
+	<header class="header">
+		<div class="roof wrapper">
 			<img src="images/logo.png" alt="logo" class="logo">
 			<div class="menu">
-				<a href="#">home</a>
-				<a href="#">menu</a>
-				<a href="#">reservation</a>
-				<a href="#">recipe</a>
-				<a href="#">blog</a>
-				<a href="#">pages</a>
-				<a href="#">contact</a>
+				<a href="#" class="menu__item">home</a>
+				<a href="#" class="menu__item">menu</a>
+				<a href="#" class="menu__item">reservation</a>
+				<a href="#" class="menu__item">recipe</a>
+				<a href="#" class="menu__item">blog</a>
+				<a href="#" class="menu__item">pages</a>
+				<a href="#" class="menu__item">contact</a>
 			</div>
-			<div class="button">
-				<a href="#">
-					<div class="button-border">
-						<img src="images/order.png" alt="order">
-						<p>book your table</p>
-					</div>
-				</a>
+			<a href="#" class="button order">
+				<div class="order__border">
+					<img src="images/order.png" alt="order" class="order__icon">
+					<p class="order__text">book your table</p>
+				</div>
+			</a>
+		</div>
+		<div class="banner">
+			<div class="banner__inner wrapper">
+				<h1 class="banner-slaid">
+					<span class="banner-slaid__top"><span class="banner-slaid__left">Teast your</span> <span class="banner-slaid__right">fav dish</span></span>
+					<br>
+					<span class="banner-slaid__bottom">from <span class="banner-slaid__sub sub-color">luxury restaurent</span></span>
+				</h1>
 			</div>
 		</div>
 	</header>
-	<div id="Banner">
-		<div class="wrapper">
-			<h1>
-				<span class="top"><span class="left">Teast your</span> <span class="right">fav dish</span></span>
-				<br>
-				<span class="bottom">from <span class="sub-color">luxury restaurent</span></span>
-			</h1>
-		</div>
-	</div>
 	<div id="BelowBanner">
 		<div class="wrapper">
 			<img src="images/phone.png" alt="phone">
@@ -49,7 +47,7 @@
 			<div class="semi-wrapper">
 				<h2>About Restaurent</h2>
 				<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged<span class="sub-color">...</span></p>
-				<div class="button"><a href="#"><p>read more</p></a></div>
+				<a href="#" class="button">read more</a>
 			</div>
 			<div class="quarter-wrapper left">
 		 		<img src="images/food-1.png" alt="food1" class="first">

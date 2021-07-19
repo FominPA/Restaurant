@@ -1,0 +1,14 @@
+$sub-color: #FEA100;
+
+.button {
+	background-color: $sub-color;
+	border-radius: 3px;
+	color: white;
+	font-family: 'Sintony', sans-serif;
+	font-size: 14px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}

@@ -18,8 +18,9 @@ body {
 }
 
 .wrapper {
-	width: 1170px;
-	padding: 0 30px;
+	max-width: 1170px;
+	padding-left: 30px;
+	padding-right: 30px;
 	margin: 0 auto;
 }
 
@@ -28,120 +29,17 @@ p {
 	font-size: 14px;
 }
 
+h1 {
+	font-family: 'Playfair Display', serif;
+	color: white;
+}
+
 h2 {
 	font-family: 'Playfair Display', serif;
 	font-size: 35px;
 }
 
 // -------------   blocks   -------------
-
-header {
-	padding: 20px 0;
-	text-transform: uppercase;
-	font-weight: bold;
-	font-size: 14px;
-	font-family: 'Sintony', sans-serif;
-
-	.wrapper { 
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	img.logo { width: 212px; height: 40px; }
-
-	.menu a {
-		display: inline-block;
-		margin: 15px;
-		&:hover { color: $sub-color; }
-	}
-
-	.button a {
-		background-color: $sub-color;
-		padding: 3px;
-		border-radius: 3px;
-		display: block;
-		color: white;
-
-		.button-border {
-			border: 1px solid white;
-			border-radius: 3px;
-			padding: 11px 15px;
-			display: flex;
-			align-items: center;
-		}
-
-		img { margin-right: 15px; width: 17px; }
-
-		p { line-height: 14px; margin-top: 3px; }
-	}
-
-	@media (max-width: 1230px) {
-		.wrapper {
-			padding: 0 calc(calc(100% - 1200px) / 2);
-		}
-	}
-
-	@media (max-width: 1200px) {
-		.wrapper {
-			width: calc(100% - 30px);
-			padding: 0 15px;
-		}
-	}
-
-	@media (max-width: 1041px) {
-		.menu {
-			display: none;
-		}
-	}
-
-	@media (max-width: 450px) {
-		padding: 0;
-
-		.wrapper {
-			justify-content: center;
-		}
-
-		img {
-			display: none;
-		}
-
-		.button {
-			margin-bottom: -80px;
-		}
-	}
-}
-
-#Banner {
-	background-image: url('images/banner-background.png');
-	background-size: cover;
-	height: 570px;
-	display: flex;
-	align-items: center;
-	font-family: 'Playfair Display', serif;
-	color: white;
-	.sub-color { color: $sub-color }
-	.top { font-size: 56px; }
-	.bottom { font-size: 40px; }
-
-	@media (max-width: 557px) {
-		.wrapper {
-			width: 497px;
-			padding: 0 calc(calc(100% - 497px) / 2);
-		}
-	}
-
-	@media (max-width: 527px) {
-		.wrapper {
-			width: calc(100% - 30px);
-			padding: 0 15px;
-		}
-
-		.top span { display: inline-block; }
-	}
-}
-
-
 
 #BelowBanner {
 	background-color: #EDF1F3;
@@ -219,22 +117,9 @@ header {
 	.sub-color { color: $sub-color; }
 
 	.button {
-		display: inline-block;
 		margin-top: 10px;
-
-		a {
-			background-color: $sub-color;
-			border-radius: 3px;
-			display: block;
-			color: white;
-			width: 150px;
-			height: 50px;
-			display: flex;
-			justify-content: space-around;
-			align-items: center;
-			text-transform: uppercase;
-			font-weight: bold;
-		}
+		width: 150px;
+		height: 50px;
 	}
 
 	.quarter-wrapper {
@@ -497,3 +382,12 @@ footer {
 		.copyright { justify-content: center; }
 	}
 }
+
+// ----------   page elements   ---------
+
+@import url('_header/_header.css');
+@import url('_banner/_banner.css');
+
+// -------------   blocks   -------------
+
+@import url('_button/_button.css');

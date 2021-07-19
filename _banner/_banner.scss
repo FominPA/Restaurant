@@ -1,0 +1,33 @@
+$def-color: #2C465A;
+$sub-color: #FEA100;
+
+@import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.banner {
+	background-image: url('images/banner-background.png');
+	background-size: cover;
+	height: 570px;
+	display: flex;
+	align-items: center;
+}
+
+.sub-color { color: $sub-color }
+.banner-slaid__top { font-size: 56px; }
+.banner-slaid__bottom { font-size: 40px; }
+
+@media (max-width: 557px) {
+	.banner__inner {
+		width: 497px;
+		padding: 0 calc(calc(100% - 497px) / 2);
+	}
+}
+
+@media (max-width: 527px) {
+	.banner__inner {
+		width: calc(100% - 30px);
+		padding: 0 15px;
+	}
+
+	.banner-slaid__top span { display: inline-block; }
+}
