@@ -4,6 +4,8 @@ $sub-color: #FEA100;
 @import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
+// -----------   normalize   ------------
+
 * { margin: 0; padding: 0; }
 
 a {
@@ -15,13 +17,6 @@ body {
 	background-color: #fff;
 	color: $def-color;
 	min-width: 320px;
-}
-
-.wrapper {
-	max-width: 1170px;
-	padding-left: 30px;
-	padding-right: 30px;
-	margin: 0 auto;
 }
 
 p {
@@ -39,61 +34,9 @@ h2 {
 	font-size: 35px;
 }
 
+.sub-color { color: $sub-color; }
+
 // -------------   blocks   -------------
-
-#BelowBanner {
-	background-color: #EDF1F3;
-	border-bottom: 1px solid #DDE3E7;
-	padding: 30px 0;
-
-	.wrapper {
-		width: 445px;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	h2 {
-		font-size: 32px;
-		line-height: 37px;
-	}
-
-	p {
-		font-weight: bold;
-		text-transform: uppercase;
-
-		.sub-color {
-			font-size: 16px;
-			color: $sub-color;
-		}
-	}
-
-	@media (max-width: 505px) {
-		.wrapper {
-			padding: 0 calc(calc(100% - 495px) / 2);
-		}
-	}
-
-	@media (max-width: 505px) {
-		.wrapper {
-			width: calc(100% - 10px);
-			padding: 0 5px;
-		}
-	}
-
-	@media (max-width: 410px) {
-		img { display: none; }
-	}
-
-	@media (max-width: 365px) {
-		.wrapper {
-			flex-wrap: wrap;
-			justify-content: center;
-		}
-	}
-}
-
-
 
 #AboutRestaurent {
 	padding: 66px 0 100px;
@@ -113,8 +56,6 @@ h2 {
 		color: #5C6369;
 		padding-right: 35px;
 	}
-
-	.sub-color { color: $sub-color; }
 
 	.button {
 		margin-top: 10px;
@@ -387,7 +328,9 @@ footer {
 
 @import url('_header/_header.css');
 @import url('_banner/_banner.css');
+@import url('_feedback/_feedback.css');
 
 // -------------   blocks   -------------
 
 @import url('_button/_button.css');
+@import url('_wrapper/_wrapper.css');

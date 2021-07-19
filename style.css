@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
 @import url("_header/_header.css");
 @import url("_banner/_banner.css");
+@import url("_feedback/_feedback.css");
 @import url("_button/_button.css");
+@import url("_wrapper/_wrapper.css");
 * {
   margin: 0;
   padding: 0; }
@@ -16,12 +18,6 @@ body {
   color: #2C465A;
   min-width: 320px; }
 
-.wrapper {
-  max-width: 1170px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin: 0 auto; }
-
 p {
   font-family: 'Sintony', sans-serif;
   font-size: 14px; }
@@ -34,47 +30,8 @@ h2 {
   font-family: 'Playfair Display', serif;
   font-size: 35px; }
 
-#BelowBanner {
-  background-color: #EDF1F3;
-  border-bottom: 1px solid #DDE3E7;
-  padding: 30px 0; }
-  #BelowBanner .wrapper {
-    width: 445px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  #BelowBanner h2 {
-    font-size: 32px;
-    line-height: 37px; }
-  #BelowBanner p {
-    font-weight: bold;
-    text-transform: uppercase; }
-    #BelowBanner p .sub-color {
-      font-size: 16px;
-      color: #FEA100; }
-  @media (max-width: 505px) {
-    #BelowBanner .wrapper {
-      padding: 0 calc(calc(100% - 495px) / 2); } }
-  @media (max-width: 505px) {
-    #BelowBanner .wrapper {
-      width: calc(100% - 10px);
-      padding: 0 5px; } }
-  @media (max-width: 410px) {
-    #BelowBanner img {
-      display: none; } }
-  @media (max-width: 365px) {
-    #BelowBanner .wrapper {
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center; } }
+.sub-color {
+  color: #FEA100; }
 
 #AboutRestaurent {
   padding: 66px 0 100px; }
@@ -101,8 +58,6 @@ h2 {
     line-height: 26px;
     color: #5C6369;
     padding-right: 35px; }
-  #AboutRestaurent .sub-color {
-    color: #FEA100; }
   #AboutRestaurent .button {
     margin-top: 10px;
     width: 150px;
