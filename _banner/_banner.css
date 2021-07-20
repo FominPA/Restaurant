@@ -11,6 +11,9 @@
   -ms-flex-align: center;
   align-items: center; }
 
+.banner__inner.wrapper {
+  width: 100%; }
+
 .banner-slaid__top {
   font-size: 56px; }
 
