@@ -34,7 +34,7 @@ h2 {
 	font-size: 35px;
 }
 
-.sub-color { color: $sub-color; }
+.text_sub-color { color: $sub-color; }
 
 // -------------   blocks   -------------
 
@@ -326,7 +326,7 @@ footer {
 
 // ----------   page elements   ---------
 
-@import url('_header/_header.css');
+@import url('_roof/_roof.css');
 @import url('_banner/_banner.css');
 @import url('_feedback/_feedback.css');
 
