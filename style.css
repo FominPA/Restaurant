@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
-@import url("_header/_header.css");
+@import url("_roof/_roof.css");
 @import url("_banner/_banner.css");
 @import url("_feedback/_feedback.css");
+@import url("_about/_about.css");
 @import url("_button/_button.css");
 @import url("_wrapper/_wrapper.css");
 * {
@@ -32,96 +33,6 @@ h2 {
 
 .text_sub-color {
   color: #FEA100; }
-
-#AboutRestaurent {
-  padding: 66px 0 100px; }
-  #AboutRestaurent .wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
-  #AboutRestaurent .semi-wrapper {
-    width: calc(50% - 30px);
-    padding: 50px 0 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
-  #AboutRestaurent .text {
-    line-height: 26px;
-    color: #5C6369;
-    padding-right: 35px; }
-  #AboutRestaurent .button {
-    margin-top: 10px;
-    width: 150px;
-    height: 50px; }
-  #AboutRestaurent .quarter-wrapper {
-    margin-left: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
-  #AboutRestaurent img {
-    width: 270px; }
-  #AboutRestaurent .first {
-    margin: 50px 0 10px; }
-  #AboutRestaurent .last {
-    margin: 10px 0 50px; }
-  @media (max-width: 1230px) {
-    #AboutRestaurent .wrapper {
-      padding: 0 calc(calc(100% - 1170px) / 2); } }
-  @media (max-width: 1200px) {
-    #AboutRestaurent .wrapper {
-      padding: 0 15px;
-      width: calc(100% - 30px);
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center; }
-    #AboutRestaurent .semi-wrapper {
-      width: 555px;
-      margin: 0 calc(calc(100% - 555px) / 2); }
-    #AboutRestaurent .quarter-wrapper {
-      margin-left: 0; }
-    #AboutRestaurent .left {
-      margin-right: 15px; }
-    #AboutRestaurent .right {
-      margin-left: 15px; } }
-  @media (max-width: 620px) {
-    #AboutRestaurent .quarter-wrapper {
-      margin: 0; }
-    #AboutRestaurent .left {
-      margin-right: 10px; } }
-  @media (max-width: 600px) {
-    #AboutRestaurent .wrapper {
-      display: block;
-      text-align: center; }
-      #AboutRestaurent .wrapper p {
-        text-align: left; }
-    #AboutRestaurent .quarter-wrapper {
-      display: -webkit-inline-box;
-      display: -ms-inline-flexbox;
-      display: inline-flex;
-      margin: 0; }
-      #AboutRestaurent .quarter-wrapper img {
-        margin: 0;
-        margin-top: 15px; } }
-  @media (max-width: 620px) {
-    #AboutRestaurent .semi-wrapper {
-      width: 100%;
-      margin: 0;
-      text-align: center; }
-      #AboutRestaurent .semi-wrapper p {
-        text-align: left; } }
 
 #TodaySpecial {
   background-image: url("images/special-background.png");

@@ -65,13 +65,12 @@
     display: none; } }
 
 @media (max-width: 450px) {
-  .header {
-    padding: 0; }
-  .roof {
+  .roof.wrapper {
+    padding: 0;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center; }
+    justify-content: center;
+    position: absolute;
+    top: 0; }
   .logo {
-    display: none; }
-  .button {
-    margin-bottom: -80px; } }
+    display: none; } }

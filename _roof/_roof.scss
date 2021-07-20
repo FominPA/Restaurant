@@ -61,17 +61,15 @@ $sub-color: #FEA100;
 }
 
 @media (max-width: 450px) {
-	.header { padding: 0; }
 
-	.roof {
+	.roof.wrapper {
+		padding: 0;
 		justify-content: center;
+		position: absolute;
+		top: 0;
 	}
 
 	.logo {
 		display: none;
-	}
-
-	.button {
-		margin-bottom: -80px;
 	}
 }
