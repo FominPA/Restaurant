@@ -20,7 +20,7 @@ $sub-color: #FEA100;
 
 .logo { width: 212px; height: 40px; }
 
-.menu__item {
+.roof__menu-item {
 	display: inline-block;
 	margin: 15px;
 	&:hover { color: $sub-color; }
@@ -55,7 +55,7 @@ $sub-color: #FEA100;
 }
 
 @media (max-width: 1041px) {
-	.menu {
+	.roof__menu {
 		display: none;
 	}
 }

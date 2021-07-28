@@ -4,7 +4,6 @@ $sub-color: #FEA100;
 @import url('https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
-// -----------   normalize   ------------
 
 * { margin: 0; padding: 0; }
 
@@ -40,17 +39,3 @@ h3 {
 }
 
 .text_sub-color { color: $sub-color; }
-
-// ----------   page elements   ---------
-
-@import url('_roof/_roof.css');
-@import url('_banner/_banner.css');
-@import url('_feedback/_feedback.css');
-@import url('_about/_about.css');
-@import url('_today-special/_today-special.css');
-@import url('_footer/_footer.css');
-
-// -------------   blocks   -------------
-
-@import url('_button/_button.css');
-@import url('_wrapper/_wrapper.css');

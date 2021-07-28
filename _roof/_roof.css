@@ -22,10 +22,10 @@
   width: 212px;
   height: 40px; }
 
-.menu__item {
+.roof__menu-item {
   display: inline-block;
   margin: 15px; }
-  .menu__item:hover {
+  .roof__menu-item:hover {
     color: #FEA100; }
 
 .order {
@@ -61,7 +61,7 @@
     padding: 0 15px; } }
 
 @media (max-width: 1041px) {
-  .menu {
+  .roof__menu {
     display: none; } }
 
 @media (max-width: 450px) {
